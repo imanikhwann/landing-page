@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -26,13 +32,127 @@ ul {
 }
 
 .header-logo {
-    font-weight: 24px;
     color: #f9faf8;
+    font-size: 24px;
+    padding: 16px;
 }
 
 .header-link {
-    font-weight: 18px;
-    color: #e5e7eb;
+    padding: 16px;
     display: flex;
-    justify-content: space-between;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    height: 300px;
+    padding: 16px;
+    gap: 52px;
+
+}
+
+.main-text, .second-text, .button {
+    padding: 8px;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.second-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-right {
+    padding: 100px;
+    background-color: grey;
+    align-self: center;
+}
+
+.button {
+    background-color: rgb(56, 113, 236);
+    text-align: end;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.first, .second, .third, .fourth {
+    max-width: 50;
+}
+
+.empty {
+    padding: 52px;
+    margin: 16px;
+    border: 2px;
+    border-style: double;
+    border-color:blue;
+    border-radius: 12px;
+}
+
+.info, .quote, .hero {
+    padding: 120px 350px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-by {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: end;
+}
+
+.action {
+    background-color: rgb(56, 113, 236);
+    display: flex;
+    justify-content: space-around;
+    gap: 52px;
+    margin: 120px 350px;
+    padding: 75px;
+    border-radius: 12px;
+}
+
+.action-right {
+    border-color: white;
+    border-style: double;
+    border-width: 8px;
+}
+
+.action-bold {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.action-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
